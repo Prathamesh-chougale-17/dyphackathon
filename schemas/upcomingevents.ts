@@ -17,9 +17,9 @@ export default defineType({
             options: { source: 'eventname' }
         }),
         defineField({
-            name: 'countdown',
-            title: 'Countdown',
-            type: 'number',
+            name: "totaldays",
+            title: "Total Days",
+            type: "number",
         }),
         defineField({
             name: 'startdate',
